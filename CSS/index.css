@@ -1,0 +1,12 @@
+/*COLOR VARIABLES*/
+body {
+  background: #F2F2F2;
+}
+body .header {
+  width: 100%;
+  height: 12%;
+}
+body .header nav {
+  display: flex;
+  justify-content: space-between;
+}
