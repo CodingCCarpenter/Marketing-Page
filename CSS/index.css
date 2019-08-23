@@ -13,12 +13,13 @@ body .header {
   padding: 5%;
 }
 body .title {
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: 700;
 }
 body a {
   text-decoration: none;
   color: black;
+  font-size: 1.3em;
 }
 body .heading {
   text-align: center;
@@ -33,4 +34,13 @@ body .heading button {
   color: #FAFAFF;
   padding: 1% 10% 1% 10%;
   font-size: 1.1em;
+}
+body .features {
+  padding: 8% 2% 5% 5%;
+}
+body .features h2 {
+  font-weight: 200;
+}
+body .features p {
+  font-weight: 100;
 }
