@@ -44,3 +44,37 @@ body .features h2 {
 body .features p {
   font-weight: 100;
 }
+body .plans {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+body .plans .firstPlan {
+  background: #9B9B9B;
+}
+body .plans .secondPlan {
+  background: #4A4A4A;
+  color: #FAFAFF;
+}
+body .plan {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6%;
+  padding: 0 8% 10% 0;
+}
+body .plan .supPrice {
+  font-weight: 500;
+  font-size: 3em;
+}
+body .plan .supPrice sup {
+  font-weight: 100;
+  font-size: 0.4em;
+}
+body .plan ul {
+  font-weight: 650;
+}
+body .plan ul li {
+  list-style-type: none;
+}

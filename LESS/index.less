@@ -57,4 +57,48 @@ body{
             font-weight: 100;
         }
     }
+
+    .plans{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        
+        .firstPlan{
+            background: @mediumColor;
+            
+        }
+
+        .secondPlan{
+            background: @darkColor;
+            color: @lightText;
+            
+        }
+    }
+    .plan{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 6%;
+        padding: 0 8% 10% 0;
+
+
+        .supPrice{
+            font-weight: 500;
+            font-size: 3em;
+            sup{
+                font-weight: 100;
+                font-size: 0.4em;
+            }
+
+        }
+        ul{
+           font-weight: 650; 
+
+           li{
+               list-style-type: none;
+           }
+        }
+    }
+
 }
