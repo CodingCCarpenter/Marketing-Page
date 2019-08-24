@@ -64,16 +64,6 @@ body{
         justify-content: space-between;
         align-content: space-between;
         
-        .firstPlan{
-            background: @mediumColor;
-            
-        }
-
-        .secondPlan{
-            background: @darkColor;
-            color: @lightText;
-            
-        }
     }
     .plan{
         width: 60%;
@@ -81,12 +71,14 @@ body{
         text-align: center;
         margin-top: 6%;
         padding: 0 8% 10% 0;
+        background: @mediumColor;
 
 
         .supPrice{
             font-weight: 500;
             font-size: 3em;
             sup{
+                vertical-align: top;
                 font-weight: 100;
                 font-size: 0.4em;
             }
@@ -98,6 +90,16 @@ body{
            li{
                list-style-type: none;
            }
+        }
+        button{
+            font-size: .9em;
+            background: @darkColor;
+            color: @lightText;
+            padding: 3% 10% 3% 10%;
+            text-align: center;
+            margin-left:10%;
+            border: 1px solid @darkColor;
+            border-radius: 8px;
         }
     }
 

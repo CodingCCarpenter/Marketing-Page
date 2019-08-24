@@ -50,25 +50,20 @@ body .plans {
   justify-content: space-between;
   align-content: space-between;
 }
-body .plans .firstPlan {
-  background: #9B9B9B;
-}
-body .plans .secondPlan {
-  background: #4A4A4A;
-  color: #FAFAFF;
-}
 body .plan {
   width: 60%;
   margin: 0 auto;
   text-align: center;
   margin-top: 6%;
   padding: 0 8% 10% 0;
+  background: #9B9B9B;
 }
 body .plan .supPrice {
   font-weight: 500;
   font-size: 3em;
 }
 body .plan .supPrice sup {
+  vertical-align: top;
   font-weight: 100;
   font-size: 0.4em;
 }
@@ -77,4 +72,14 @@ body .plan ul {
 }
 body .plan ul li {
   list-style-type: none;
+}
+body .plan button {
+  font-size: 0.9em;
+  background: #4A4A4A;
+  color: #FAFAFF;
+  padding: 3% 10% 3% 10%;
+  text-align: center;
+  margin-left: 10%;
+  border: 1px solid #4A4A4A;
+  border-radius: 8px;
 }
